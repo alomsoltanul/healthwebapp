@@ -1,0 +1,166 @@
+{
+  "healthCard": "HealthyYou",
+  "version": "1.0",
+  "features": [
+    {
+      "id": 1,
+      "title": "Daily Calorie Tracker",
+      "description": "Track your daily calorie intake and burn to maintain a healthy lifestyle.",
+      "image": "/images/calorie-tracker.jpg",
+      "short_details": "Track calories from food and exercise daily.",
+      "uniqueId": true
+    },
+    {
+      "id": 2,
+      "title": "Water Reminder",
+      "description": "Stay hydrated throughout the day with smart water reminders based on your activity.",
+      "image": "/images/water-reminder.jpg",
+      "short_details": "Smart hydration alerts tailored to your lifestyle.",
+      "uniqueId": false
+    },
+    {
+      "id": 3,
+      "title": "Step Counter",
+      "description": "Monitor your daily steps to reach your fitness goals.",
+      "image": "/images/step-counter.jpg",
+      "short_details": "Step tracking integrated with activity levels.",
+      "uniqueId": true
+    },
+    {
+      "id": 4,
+      "title": "Sleep Tracker",
+      "description": "Track and analyze your sleep patterns for better rest.",
+      "image": "/images/sleep-tracker.jpg",
+      "short_details": "Monitor deep and light sleep cycles.",
+      "uniqueId": true
+    },
+    {
+      "id": 5,
+      "title": "Heart Rate Monitor",
+      "description": "Real-time heart rate monitoring with smart alerts.",
+      "image": "/images/heart-rate.jpg",
+      "short_details": "Stay updated on your heart health.",
+      "uniqueId": false
+    },
+    {
+      "id": 6,
+      "title": "Mental Health Journal",
+      "description": "Track moods, thoughts, and emotional well-being.",
+      "image": "/images/mental-health.jpg",
+      "short_details": "Journaling for mindfulness and stress relief.",
+      "uniqueId": true
+    },
+    {
+      "id": 7,
+      "title": "BMI Calculator",
+      "description": "Instantly calculate your Body Mass Index based on height and weight.",
+      "image": "/images/bmi-calculator.jpg",
+      "short_details": "Check if your BMI is healthy.",
+      "uniqueId": false
+    },
+    {
+      "id": 8,
+      "title": "Healthy Recipes",
+      "description": "Get personalized healthy meal ideas and cooking instructions.",
+      "image": "/images/recipes.jpg",
+      "short_details": "Nutritious meals made easy.",
+      "uniqueId": true
+    },
+    {
+      "id": 9,
+      "title": "Workout Library",
+      "description": "Explore a library of guided workouts for all fitness levels.",
+      "image": "/images/workout-library.jpg",
+      "short_details": "Video workouts for home or gym.",
+      "uniqueId": true
+    },
+    {
+      "id": 10,
+      "title": "Medication Reminder",
+      "description": "Set up custom medication alerts and dosage reminders.",
+      "image": "/images/medication.jpg",
+      "short_details": "Never forget your meds again.",
+      "uniqueId": false
+    },
+    {
+      "id": 11,
+      "title": "Stress Level Checker",
+      "description": "Quickly assess your stress level and get tips to reduce it.",
+      "image": "/images/stress-checker.jpg",
+      "short_details": "Scan stress via pulse and mood input.",
+      "uniqueId": true
+    },
+    {
+      "id": 12,
+      "title": "Personal Health Dashboard",
+      "description": "All your health stats in one clean interface.",
+      "image": "/images/dashboard.jpg",
+      "short_details": "See the big picture of your health.",
+      "uniqueId": false
+    },
+    {
+      "id": 13,
+      "title": "Symptom Checker",
+      "description": "AI-based symptom checker to suggest common conditions.",
+      "image": "/images/symptom-checker.jpg",
+      "short_details": "Input symptoms, get instant suggestions.",
+      "uniqueId": true
+    },
+    {
+      "id": 14,
+      "title": "Weekly Health Challenges",
+      "description": "Participate in fun weekly challenges for better health.",
+      "image": "/images/challenges.jpg",
+      "short_details": "Stay motivated with friendly competition.",
+      "uniqueId": false
+    },
+    {
+      "id": 15,
+      "title": "Yoga & Meditation",
+      "description": "Join daily guided yoga and meditation sessions.",
+      "image": "/images/yoga-meditation.jpg",
+      "short_details": "Inner peace through movement and breath.",
+      "uniqueId": true
+    },
+    {
+      "id": 16,
+      "title": "Health Tips Feed",
+      "description": "Get daily health tips curated by experts.",
+      "image": "/images/tips-feed.jpg",
+      "short_details": "Quick bites of wellness knowledge.",
+      "uniqueId": false
+    },
+    {
+      "id": 17,
+      "title": "Allergy Tracker",
+      "description": "Log and analyze allergy symptoms and triggers.",
+      "image": "/images/allergy.jpg",
+      "short_details": "Stay on top of your allergy trends.",
+      "uniqueId": true
+    },
+    {
+      "id": 18,
+      "title": "Fitness Goal Planner",
+      "description": "Set, track, and achieve your personal health goals.",
+      "image": "/images/goal-planner.jpg",
+      "short_details": "Turn your health vision into results.",
+      "uniqueId": true
+    },
+    {
+      "id": 19,
+      "title": "Immunity Booster Guide",
+      "description": "Strengthen your immune system naturally.",
+      "image": "/images/immunity.jpg",
+      "short_details": "Boost your body's defense the right way.",
+      "uniqueId": false
+    },
+    {
+      "id": 20,
+      "title": "Menstrual Cycle Tracker",
+      "description": "Track periods, ovulation, and symptoms easily.",
+      "image": "/images/period-tracker.jpg",
+      "short_details": "Built-in reminders and predictions.",
+      "uniqueId": true
+    }
+  ]
+}
