@@ -4,163 +4,183 @@
   "features": [
     {
       "id": 1,
-      "title": "Daily Calorie Tracker",
-      "description": "Track your daily calorie intake and burn to maintain a healthy lifestyle.",
-      "image": "/images/calorie-tracker.jpg",
-      "short_details": "Track calories from food and exercise daily.",
-      "uniqueId": true
+      "title": "毎日のカロリー記録",
+      "description": "毎日の摂取カロリーと消費カロリーを記録して健康を維持します。",
+      "image": "https://plus.unsplash.com/premium_photo-1752658399836-07566560b88f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_details": "食事と運動によるカロリーの追跡。",
+      "uniqueId": false,
+      "alt_text": "毎日のカロリー記録のイメージ"
     },
     {
       "id": 2,
-      "title": "Water Reminder",
-      "description": "Stay hydrated throughout the day with smart water reminders based on your activity.",
-      "image": "/images/water-reminder.jpg",
-      "short_details": "Smart hydration alerts tailored to your lifestyle.",
-      "uniqueId": false
+      "title": "水分補給リマインダー",
+      "description": "日中の水分補給を促すスマートなリマインダーです。",
+      "image": "https://source.unsplash.com/featured/?water",
+      "short_details": "あなたの生活に合わせた水分補給通知。",
+      "uniqueId": true,
+      "alt_text": "水分補給リマインダーのイメージ"
     },
     {
       "id": 3,
-      "title": "Step Counter",
-      "description": "Monitor your daily steps to reach your fitness goals.",
-      "image": "/images/step-counter.jpg",
-      "short_details": "Step tracking integrated with activity levels.",
-      "uniqueId": true
+      "title": "歩数計",
+      "description": "毎日の歩数を記録して健康的な目標を達成しましょう。",
+      "image": "https://source.unsplash.com/featured/?steps",
+      "short_details": "活動レベルに応じた歩数追跡。",
+      "uniqueId": false,
+      "alt_text": "歩数計のイメージ"
     },
     {
       "id": 4,
-      "title": "Sleep Tracker",
-      "description": "Track and analyze your sleep patterns for better rest.",
-      "image": "/images/sleep-tracker.jpg",
-      "short_details": "Monitor deep and light sleep cycles.",
-      "uniqueId": true
+      "title": "睡眠トラッカー",
+      "description": "睡眠の質を向上させるためにパターンを分析します。",
+      "image": "https://source.unsplash.com/featured/?sleep",
+      "short_details": "深い睡眠と浅い睡眠をモニター。",
+      "uniqueId": true,
+      "alt_text": "睡眠トラッカーのイメージ"
     },
     {
       "id": 5,
-      "title": "Heart Rate Monitor",
-      "description": "Real-time heart rate monitoring with smart alerts.",
-      "image": "/images/heart-rate.jpg",
-      "short_details": "Stay updated on your heart health.",
-      "uniqueId": false
+      "title": "心拍数モニター",
+      "description": "リアルタイムで心拍数を確認し健康状態を管理します。",
+      "image": "https://source.unsplash.com/featured/?heart",
+      "short_details": "心臓の健康を常に把握。",
+      "uniqueId": false,
+      "alt_text": "心拍数モニターのイメージ"
     },
     {
       "id": 6,
-      "title": "Mental Health Journal",
-      "description": "Track moods, thoughts, and emotional well-being.",
-      "image": "/images/mental-health.jpg",
-      "short_details": "Journaling for mindfulness and stress relief.",
-      "uniqueId": true
+      "title": "メンタルヘルス日記",
+      "description": "気分や感情の記録によって心の健康を保ちます。",
+      "image": "https://source.unsplash.com/featured/?mindfulness",
+      "short_details": "マインドフルネスとストレス緩和のための記録。",
+      "uniqueId": true,
+      "alt_text": "メンタルヘルス日記のイメージ"
     },
     {
       "id": 7,
-      "title": "BMI Calculator",
-      "description": "Instantly calculate your Body Mass Index based on height and weight.",
-      "image": "/images/bmi-calculator.jpg",
-      "short_details": "Check if your BMI is healthy.",
-      "uniqueId": false
+      "title": "BMI計算機",
+      "description": "身長と体重から瞬時にBMIを計算します。",
+      "image": "https://source.unsplash.com/featured/?bmi",
+      "short_details": "あなたのBMIが健康的か確認しましょう。",
+      "uniqueId": false,
+      "alt_text": "BMI計算機のイメージ"
     },
     {
       "id": 8,
-      "title": "Healthy Recipes",
-      "description": "Get personalized healthy meal ideas and cooking instructions.",
-      "image": "/images/recipes.jpg",
-      "short_details": "Nutritious meals made easy.",
-      "uniqueId": true
+      "title": "健康レシピ",
+      "description": "あなたに合った健康的な食事レシピを提案します。",
+      "image": "https://source.unsplash.com/featured/?healthy food",
+      "short_details": "栄養満点のレシピを簡単に。",
+      "uniqueId": true,
+      "alt_text": "健康レシピのイメージ"
     },
     {
       "id": 9,
-      "title": "Workout Library",
-      "description": "Explore a library of guided workouts for all fitness levels.",
-      "image": "/images/workout-library.jpg",
-      "short_details": "Video workouts for home or gym.",
-      "uniqueId": true
+      "title": "ワークアウトライブラリ",
+      "description": "初心者から上級者まで対応したエクササイズ集です。",
+      "image": "https://source.unsplash.com/featured/?workout",
+      "short_details": "自宅やジムでできる動画エクササイズ。",
+      "uniqueId": false,
+      "alt_text": "ワークアウトライブラリのイメージ"
     },
     {
       "id": 10,
-      "title": "Medication Reminder",
-      "description": "Set up custom medication alerts and dosage reminders.",
-      "image": "/images/medication.jpg",
-      "short_details": "Never forget your meds again.",
-      "uniqueId": false
+      "title": "服薬リマインダー",
+      "description": "薬の服用時間をリマインドしてくれます。",
+      "image": "https://source.unsplash.com/featured/?medication",
+      "short_details": "薬を忘れずに飲みましょう。",
+      "uniqueId": true,
+      "alt_text": "服薬リマインダーのイメージ"
     },
     {
       "id": 11,
-      "title": "Stress Level Checker",
-      "description": "Quickly assess your stress level and get tips to reduce it.",
-      "image": "/images/stress-checker.jpg",
-      "short_details": "Scan stress via pulse and mood input.",
-      "uniqueId": true
+      "title": "ストレスチェック",
+      "description": "ストレス状態を素早く評価し軽減のアドバイスを提供。",
+      "image": "https://source.unsplash.com/featured/?stress",
+      "short_details": "脈拍と気分入力でストレスをスキャン。",
+      "uniqueId": false,
+      "alt_text": "ストレスチェックのイメージ"
     },
     {
       "id": 12,
-      "title": "Personal Health Dashboard",
-      "description": "All your health stats in one clean interface.",
-      "image": "/images/dashboard.jpg",
-      "short_details": "See the big picture of your health.",
-      "uniqueId": false
+      "title": "パーソナル健康ダッシュボード",
+      "description": "すべての健康情報を一目で確認できます。",
+      "image": "https://source.unsplash.com/featured/?dashboard",
+      "short_details": "健康の全体像を把握。",
+      "uniqueId": true,
+      "alt_text": "パーソナル健康ダッシュボードのイメージ"
     },
     {
       "id": 13,
-      "title": "Symptom Checker",
-      "description": "AI-based symptom checker to suggest common conditions.",
-      "image": "/images/symptom-checker.jpg",
-      "short_details": "Input symptoms, get instant suggestions.",
-      "uniqueId": true
+      "title": "症状チェッカー",
+      "description": "症状を入力してAIが可能性のある病気を示します。",
+      "image": "https://source.unsplash.com/featured/?symptoms",
+      "short_details": "症状を入力して即座に提案を受ける。",
+      "uniqueId": false,
+      "alt_text": "症状チェッカーのイメージ"
     },
     {
       "id": 14,
-      "title": "Weekly Health Challenges",
-      "description": "Participate in fun weekly challenges for better health.",
-      "image": "/images/challenges.jpg",
-      "short_details": "Stay motivated with friendly competition.",
-      "uniqueId": false
+      "title": "週間ヘルスチャレンジ",
+      "description": "毎週のチャレンジに参加して健康を促進。",
+      "image": "https://source.unsplash.com/featured/?challenge",
+      "short_details": "楽しく健康を目指す競争。",
+      "uniqueId": true,
+      "alt_text": "週間ヘルスチャレンジのイメージ"
     },
     {
       "id": 15,
-      "title": "Yoga & Meditation",
-      "description": "Join daily guided yoga and meditation sessions.",
-      "image": "/images/yoga-meditation.jpg",
-      "short_details": "Inner peace through movement and breath.",
-      "uniqueId": true
+      "title": "ヨガと瞑想",
+      "description": "毎日行えるガイド付きヨガと瞑想セッション。",
+      "image": "https://source.unsplash.com/featured/?yoga",
+      "short_details": "動きと呼吸で心を整える。",
+      "uniqueId": false,
+      "alt_text": "ヨガと瞑想のイメージ"
     },
     {
       "id": 16,
-      "title": "Health Tips Feed",
-      "description": "Get daily health tips curated by experts.",
-      "image": "/images/tips-feed.jpg",
-      "short_details": "Quick bites of wellness knowledge.",
-      "uniqueId": false
+      "title": "健康ヒントフィード",
+      "description": "専門家が選んだ日々の健康ヒント。",
+      "image": "https://source.unsplash.com/featured/?health tips",
+      "short_details": "健康に役立つ知識を毎日。",
+      "uniqueId": true,
+      "alt_text": "健康ヒントフィードのイメージ"
     },
     {
       "id": 17,
-      "title": "Allergy Tracker",
-      "description": "Log and analyze allergy symptoms and triggers.",
-      "image": "/images/allergy.jpg",
-      "short_details": "Stay on top of your allergy trends.",
-      "uniqueId": true
+      "title": "アレルギー追跡",
+      "description": "アレルギー症状やトリガーを記録します。",
+      "image": "https://source.unsplash.com/featured/?allergy",
+      "short_details": "アレルギー傾向を管理。",
+      "uniqueId": false,
+      "alt_text": "アレルギー追跡のイメージ"
     },
     {
       "id": 18,
-      "title": "Fitness Goal Planner",
-      "description": "Set, track, and achieve your personal health goals.",
-      "image": "/images/goal-planner.jpg",
-      "short_details": "Turn your health vision into results.",
-      "uniqueId": true
+      "title": "フィットネス目標プランナー",
+      "description": "目標を設定して達成までの道のりを記録。",
+      "image": "https://source.unsplash.com/featured/?fitness",
+      "short_details": "健康的な目標を結果に変える。",
+      "uniqueId": true,
+      "alt_text": "フィットネス目標プランナーのイメージ"
     },
     {
       "id": 19,
-      "title": "Immunity Booster Guide",
-      "description": "Strengthen your immune system naturally.",
-      "image": "/images/immunity.jpg",
-      "short_details": "Boost your body's defense the right way.",
-      "uniqueId": false
+      "title": "免疫力向上ガイド",
+      "description": "自然な方法で免疫力を高めましょう。",
+      "image": "https://source.unsplash.com/featured/?immunity",
+      "short_details": "身体の防御力を強化する方法。",
+      "uniqueId": false,
+      "alt_text": "免疫力向上ガイドのイメージ"
     },
     {
       "id": 20,
-      "title": "Menstrual Cycle Tracker",
-      "description": "Track periods, ovulation, and symptoms easily.",
-      "image": "/images/period-tracker.jpg",
-      "short_details": "Built-in reminders and predictions.",
-      "uniqueId": true
+      "title": "月経周期トラッカー",
+      "description": "月経、排卵、症状を簡単に追跡。",
+      "image": "https://source.unsplash.com/featured/?period tracker",
+      "short_details": "リマインダーと予測付き。",
+      "uniqueId": true,
+      "alt_text": "月経周期トラッカーのイメージ"
     }
   ]
 }

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import healthData from "../data/healthapp.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 
@@ -7,7 +8,9 @@ interface HealthCard {
     title: string,
     description: string,
     short_details: string,
-    uniqueId : boolean,
+    uniqueId: boolean,
+    image: string,
+    alt_text: string,
 }
 
 export default function HealthCard() {
@@ -26,29 +29,23 @@ export default function HealthCard() {
             <div className=" my-10">
                 <div className=" grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-8 justify-center">
                     {healthCC.map((healthcard: HealthCard) => (
-                        <div  key={healthcard.id} className=" flex justify-center">
-                            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
-                                <img
-                                    src={`/jordans.webp`}
-                                    alt="jordans"
-                                    height="400"
-                                    width="400"
-                                    className="object-contain"
-                                />
-                                <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-                                    {healthcard.title}
-                                </p>
+                        <div key={healthcard.id} className=" flex justify-center">
+                            <Link href="#">
+                                <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
 
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                                    {healthcard.short_details}
-                                </p>
-                                <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
-                                    <span>Buy now </span>
-                                    <span className="bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white">
-                                        $100
-                                    </span>
-                                </button>
-                            </BackgroundGradient>
+                                    <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                                        {healthcard.title}
+                                    </p>
+
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-400">
+                                        {healthcard.short_details}
+                                    </p>
+                                    <button className="rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800">
+                                        <span　className=" text-orange-400 font-bold">もっと見る？ </span>
+                                        
+                                    </button>
+                                </BackgroundGradient>
+                            </Link>
                         </div>
                     ))}
                 </div>
