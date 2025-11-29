@@ -53,6 +53,10 @@ export default function HealthCard() {
             <div className="flex items-center text-center m-auto">
                 <button className=" p-2 px-10 bg-fuchsia-700 m-auto mt-10  rounded-3xl border-0">すべて見る</button>
             </div>
+
+            <div>
+                
+            </div>
         </div>
     )
 }
